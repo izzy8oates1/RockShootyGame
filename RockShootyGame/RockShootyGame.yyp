@@ -1,11 +1,13 @@
 {
   "resources": [
-    {"id":{"name":"small_astroid_spr","path":"sprites/small_astroid_spr/small_astroid_spr.yy",},"order":1,},
-    {"id":{"name":"medium_astroid_spr","path":"sprites/medium_astroid_spr/medium_astroid_spr.yy",},"order":2,},
+    {"id":{"name":"obj_astroid","path":"objects/obj_astroid/obj_astroid.yy",},"order":1,},
+    {"id":{"name":"spr_small_astroid","path":"sprites/spr_small_astroid/spr_small_astroid.yy",},"order":1,},
+    {"id":{"name":"spr_medium_astroid","path":"sprites/spr_medium_astroid/spr_medium_astroid.yy",},"order":2,},
     {"id":{"name":"spr_triangle","path":"sprites/spr_triangle/spr_triangle.yy",},"order":0,},
-    {"id":{"name":"large_astroid_spr","path":"sprites/large_astroid_spr/large_astroid_spr.yy",},"order":4,},
+    {"id":{"name":"spr_large_astroid","path":"sprites/spr_large_astroid/spr_large_astroid.yy",},"order":4,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"obj_triangle","path":"objects/obj_triangle/obj_triangle.yy",},"order":0,},
+    {"id":{"name":"game_rm","path":"rooms/game_rm/game_rm.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -20,7 +22,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"game_rm","path":"rooms/game_rm/game_rm.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
