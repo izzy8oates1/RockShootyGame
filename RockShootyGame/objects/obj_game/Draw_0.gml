@@ -42,14 +42,12 @@ press enter to begin.
 				draw_set_halign(fa_center);
 		var c = c_red;
 		draw_text_transformed_color(
-			room_width/2, 100, "you're dead lol.", 
-			3, 3, 0, c,c,c,c, 1
+			room_width/2, 100, "you are dead and buried", 
+			2.5, 2.5, 0, c,c,c,c, 1
 		);
+		draw_text(room_width/2, 200, "you are dead");
 		draw_text(
-			room_width/2, 200, "you scored "+string(score)+" points."
-		);
-		draw_text(
-			room_width/2, 300, "you're still dead though."
+			room_width/2, 300, "but that's being revised"
 		);
 		draw_text(
 			room_width/2, 400, "press enter to play again."
